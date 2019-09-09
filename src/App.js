@@ -1,18 +1,12 @@
-import React,{Component} from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
-import Content from './Content'
-
-let x = 10;
 class App extends Component {
-  render(){
+  render() {
     return (
       <div className="App">
-       Hello
-       <Content/>
-      </div>
+        Hello World
+ </div>
     );
   }
 }
-
 export default App;
