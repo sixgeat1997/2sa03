@@ -1,4 +1,7 @@
-export default class WordCard extends
+import React, {Component} from 'react';
+import CharacterCard from './CharacterCard'
+
+export default class WordCard extends 
     Component {
     render() {
         return (
